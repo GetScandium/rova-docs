@@ -1,4 +1,4 @@
-# CLI Authentication
+# Authentication
 
 Before you can run tests or generate scripts, you must authenticate the Rova CLI with your account. Rova uses **API Keys** to securely connect the CLI to your workspaces.
 
@@ -7,26 +7,29 @@ Before you can run tests or generate scripts, you must authenticate the Rova CLI
 The `auth login` command handles the authentication process. You can use it interactively or by providing your API key directly.
 
 ### 1. Identify your Product
+
 Rova has separate platforms for Web and Mobile. You need to authenticate with the product you intend to use.
 
-- **Rova Web**: [https://app.rova.qa/settings/workspace/apikeys](https://app.rova.qa/settings/workspace/apikeys)
-- **Rova Mobile**: [https://mobile.rova.qa/settings/api-keys](https://mobile.rova.qa/settings/api-keys)
+* **Rova Web**: [https://app.rova.qa/settings/workspace/apikeys](https://app.rova.qa/settings/workspace/apikeys)
+* **Rova Mobile**: [https://mobile.rova.qa/settings/api-keys](https://mobile.rova.qa/settings/api-keys)
 
 ### 2. Run the Login Command
 
 **Interactive Mode:**
+
 ```bash
 # Pick your product from a list
 rova auth login
 ```
 
 **Direct Mode (Recommended for CI):**
+
 ```bash
 # Authenticate for Web
-rova auth login --product web --key rova_your_web_key_here
+rova auth login --product web
 
 # Authenticate for Mobile
-rova auth login --product mobile --key rova_your_mobile_key_here
+rova auth login --product mobile
 ```
 
 ## Verifying Authentication
@@ -53,12 +56,9 @@ rova auth logout --product all
 
 ## Credentials Location
 
-Rova CLI stores your credentials securely in a JSON file on your local machine:
-- **macOS/Linux**: `~/.rova/credentials.json`
-- **Windows**: `%USERPROFILE%\.rova\credentials.json`
+Rova CLI stores your credentials securely in a JSON file on your local machine
 
-> [!WARNING]
-> Never share your `credentials.json` file or commit it to a version control system.
+> \[!WARNING] Never share your `credentials.json` file or commit it to a version control system.
 
 ## Using Environment Variables (CI/CD)
 
