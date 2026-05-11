@@ -2,22 +2,20 @@
 
 * [Welcome to Rova](README.md)
 * [Getting Started](getting-started/README.md)
-
 * [Rova Web](rova-web/README.md)
   * [Core Concepts](rova-web/concepts.md)
   * [Managing Tests](rova-web/managing-tests.md)
   * [Test Suites](rova-web/suites.md)
   * [Scheduling](rova-web/schedules.md)
   * [Test Runs & Reporting](rova-web/runs-and-reporting.md)
-  * [Workspace Management](rova-web/management/workspace.md)
-  * [Membership & Roles](rova-web/management/membership.md)
-  * [Project Management](rova-web/projects/overview.md)
-  * [Project Contexts](rova-web/projects/contexts.md)
-  * [Sensitivity & Data Privacy](rova-web/projects/sensitivity.md)
-  * [API Keys](rova-web/management/api-keys.md)
+  * [Workspace Management](rova-web/workspace/README.md)
+    * [API Keys](rova-web/workspace/api-keys.md)
+    * [Membership & Roles](rova-web/workspace/membership.md)
+  * [Project Management](rova-web/overview/README.md)
+    * [Project Contexts](rova-web/overview/contexts.md)
+    * [Sensitivity & Data Privacy](rova-web/overview/sensitivity.md)
   * [Integrations](rova-web/integrations.md)
   * [Use Cases & Capabilities](rova-web/capabilities.md)
-
 * [Rova Mobile](rova-mobile/README.md)
   * [Core Concepts](rova-mobile/concepts.md)
   * [Managing Tests & Goals](rova-mobile/tests-and-goals.md)
@@ -30,7 +28,6 @@
   * [API Keys](rova-mobile/management/api-keys.md)
   * [Integrations](rova-mobile/integrations.md)
   * [Use Cases](rova-mobile/use-cases.md)
-
 * [Rova CLI](rova-cli/README.md)
   * [Overview & Ties to Platforms](rova-cli/overview.md)
   * [Installation](rova-cli/installation.md)
@@ -39,13 +36,10 @@
   * [Local Web Execution](rova-cli/web-execution.md)
   * [Local Mobile Execution](rova-cli/mobile-execution.md)
   * [AI Test Generation](rova-cli/generation.md)
-
 * [AI Automation](ai-automation/how-it-works.md)
-  * [Coordinate Grid Overlays](ai-automation/coordinate-grid.md)
+  * [Coordinate Grid Overlays](how-it-works/coordinate-grid-overlays.md)
   * [Self-Healing Tests](ai-automation/self-healing.md)
-
 * [Release Notes](changelog/README.md)
-
 * [Support](support/README.md)
   * [Troubleshooting](support/troubleshooting.md)
   * [FAQ](support/faq.md)

@@ -10,6 +10,6 @@ Welcome to Rova! To start automating your applications, you'll first need to cre
 ## Quick Path
 
 1. **Create an Account**: Sign up using the links above.
-2. **Install the CLI**: Use our CLI to run tests locally or in CI.
+2. **Install the CLI**: Use our CLI to run tests locally or in CI (optional).
 3. **Write Your First Test**: Describe your test in natural language.
 4. **View Results**: Check the dashboard for recordings and logs.
