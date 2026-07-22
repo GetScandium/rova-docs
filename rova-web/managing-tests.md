@@ -50,6 +50,9 @@ By default, tests have a maximum execution time. If you have a very long flow, y
 
 If a test interacts with sensitive data (e.g., PII), you can mark specific context data as **Sensitive**.
 
-## Organizing Tests (Soon)
+### Organizing Tests
 
-Use **Labels** to organize tests within a project. This makes it easier to find related tests when building new Suites.
+Keep your test suite clean by grouping related test cases together using Categories.
+
+* Create Categories: Build custom groupings based on features or priority (e.g., `Authentication`, `Onboarding`, `Critical Path`).
+* Assign to Goals: Assign these categories directly to your test goals to easily label, filter, and organize them when structuring your wider testing projects.

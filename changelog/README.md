@@ -2,6 +2,27 @@
 
 Stay up to date with the latest features, improvements, and bug fixes in Rova.
 
+## \[2026.06.01] - Accessibility (A11y) Audits (Beta)
+
+Automated WCAG Scans & AI-Assisted Fixes<br>
+
+**Feature Activation Hierarchy**
+
+* Conditional Workspace & Project Enablers: Added a global toggle for Accessibility (A11y) Audits under the Beta Features tab in Workspace Settings. Activating this globally reveals a new project-level configuration toggle, Always-on Accessibility Audits, within your Project Settings. Turning the project toggle on subsequently unlocks the accessibility audit configuration options for your individual tests and test suites.
+
+**Execution & Test Suites Configuration**
+
+* Test Suite Controls: Added an Accessibility Audits toggle under the Advanced Configuration section when creating a new or editing an existing Test Suite, ensuring all underlying batch tests inherit the scan.
+* Granular Test Controls: Added an Accessibility Audit toggle under individual test Advanced Configuration blocks (under Device & Viewport), allowing users to selectively enable audits on standalone test paths.
+
+**Runs & Insights Dashboard**
+
+* Dedicated A11y Check Tab: A new A11y Check tab is now available within the test run execution details console.
+* Compliance Overview: Visual dashboard featuring high-level metrics, including an overall Compliance Grade, a total Health Score percentage, and a Total Issues counter.
+* Interactive Severity Filtering: Instantly filter caught accessibility bugs by impact level: _Critical_, _Serious_, _Moderate_, or _Minor_.
+* Code-Level Debugging: Elements violating WCAG standards display their strict DOM target selectors and specific rule violations for immediate front-end remediation.
+* Downloadable Reports: A new Download Report action button allows teams to export localized compliance data directly from the run dashboard for stakeholders.
+
 ## \[2026.05.12] - Test Categorization
 
 ### Categories & Test Labelling
