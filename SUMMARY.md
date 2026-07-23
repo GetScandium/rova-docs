@@ -15,6 +15,8 @@
     * [Project Contexts](rova-web/overview/contexts.md)
     * [Sensitivity & Data Privacy](rova-web/overview/sensitivity.md)
   * [Integrations](rova-web/integrations.md)
+  * [OpenTelemetry Integrations](rova-web/opentelemetry-integrations/README.md)
+    * [PreBaked Grafana Template](rova-web/opentelemetry-integrations/prebaked-grafana-template.md)
   * [Use Cases & Capabilities](rova-web/capabilities.md)
 * [Rova Mobile](rova-mobile/README.md)
   * [Core Concepts](rova-mobile/concepts.md)
