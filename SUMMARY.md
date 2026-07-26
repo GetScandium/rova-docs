@@ -14,6 +14,7 @@
   * [Project Management](rova-web/overview/README.md)
     * [Project Contexts](rova-web/overview/contexts.md)
     * [Sensitivity & Data Privacy](rova-web/overview/sensitivity.md)
+  * [CI/CD Integration](rova-web/ci-cd-integration.md)
   * [Integrations](rova-web/integrations/README.md)
     * [Slack](rova-web/integrations/slack.md)
     * [Linear](rova-web/integrations/linear.md)
