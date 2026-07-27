@@ -20,27 +20,6 @@ Standard automation tools are "blind" to the meaning of your UI. Rova's AI under
 
 "The 'Logout' button is hidden inside the user avatar menu in the top-right corner." _Benefit_: The agent knows it needs to click the avatar first without being explicitly told in every test.
 
-### Managing Environments
-
-Applications often run across multiple stages, such as Local, Staging, and Production. Rova AI allows you to define target execution environments for your project so you can run the exact same test cases against different deployment URLs and configurations.
-
-#### Adding an Environment
-
-1. Navigate to **Project** > **Settings**.
-2. Locate the Environments section and click **+ Add Environment**.
-3. Enter the **environment name** (e.g., `Staging`, `UAT`, or `Dev`) and its corresponding **base URL** (e.g., `[https://saucedemostaging.com](https://saucedemostaging.com)`).
-4. **Save** your environment settings.
-
-### Using Environments in Test Goals
-
-When creating a new test goal or editing an existing one, you can specify which environment Rova AI should execute against:
-
-1. Open the goal editor or creation form.
-2. Toggle on **Advanced Configuration**.
-3. Under **Target Execution Environment**, open the dropdown menu to select your desired environment (e.g., `Staging`).
-
-> How Overrides Work: Selecting a target execution environment automatically overrides the default test URL with the environment's base URL and injects any environment-specific context into the AI agent for that run.
-
 ## How to Manage Context
 
 1. Navigate to your **Project > Settings > Test Context**.
