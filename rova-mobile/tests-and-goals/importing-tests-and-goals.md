@@ -10,7 +10,7 @@ Bringing existing test suites into Rova Mobile is fast and flexible. You can upl
 
 ### Step-by-Step Mobile Import Process
 
-To initiate an import, open your Test Library in Rova Mobile and choose Import Tests.
+To initiate an import, open your **Test Library** in Rova Mobile and click **Import Goals** button.
 
 #### Step 1: Target Mobile App & File Upload
 
